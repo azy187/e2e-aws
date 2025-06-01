@@ -1,0 +1,19 @@
+# .env
+.env
+
+# dependencies
+node_modules/
+
+# testing
+playwright/reports
+playwright/results
+playwright/.cache/
+
+# prettier
+.prettierrc
+
+# dist/
+dist
+
+# vscode
+*.code-workspace
