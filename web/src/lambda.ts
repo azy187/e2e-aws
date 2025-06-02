@@ -7,8 +7,6 @@ import type {
 import { launchOptions } from "./launchOptions";
 import { uploadToS3 } from "./s3";
 
-export const handler: Handler = async (
-    event: APIGatewayEvent,
-) => {
-  
-};
+interface TestResultOutput {}
+
+export const handler: Handler = async (event: APIGatewayEvent) => {};
