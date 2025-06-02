@@ -16,4 +16,4 @@ playwright/.cache/
 dist
 
 # vscode
-*.code-workspace
+../**/*.code-workspace
