@@ -9,6 +9,10 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: [["html", { outputFolder: "./playwright/reports" }]],
   use: {
+    //   httpCredentials: {
+    //     username: "atlas",
+    //     password: "atlas"
+    //   },
     trace: "on-first-retry",
   },
   projects: [
